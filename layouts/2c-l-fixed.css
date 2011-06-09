@@ -1,0 +1,113 @@
+
+/*
+LAYOUT: One-Column (Left) Fixed
+DESCRIPTION: Two-column 960px fixed layout with one sidebar left of content
+*/
+
+body {
+	min-width: 960px;
+}
+
+#wrapper {
+
+}
+
+#above-header-aside {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	position: relative;
+}
+
+#header-aside {
+	float: right;
+	width: 300px;
+	margin-right: 0;
+}
+
+#branding {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#access {
+	position: relative;
+	margin-bottom: 48px;
+}
+
+.menu {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#main {
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+}
+
+#above-container-aside {
+	width: 960px;
+	margin: 0 auto;
+	margin-bottom: 36px;
+}
+
+#container {
+	width: 960px;
+	float: right;
+	margin: 0 0 0 -325px;
+}
+
+#above-content-aside {
+	width: 635px;
+	overflow: hidden;
+	margin: 0 0 0 325px;
+}
+
+#content {
+	width: 635px;
+	overflow: hidden;
+	margin: 0 0 0px 325px;
+}
+
+.hentry {
+	width: 635px;
+}
+
+.main-aside {
+	width: 323px;
+	float: left;
+	position: relative;
+}
+
+#primary {
+	float: left;
+}
+
+#secondary {
+	clear: left;
+}
+
+#footer {
+	clear: both;
+}
+
+#subsidiary {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#subsidiary .aside, #subsidiary #third {
+	width: 300px;
+	float: left;
+	margin: 0 auto;
+}
+
+#siteinfo {
+	clear: both;
+	width: 960px;
+	margin: 0 auto;
+}

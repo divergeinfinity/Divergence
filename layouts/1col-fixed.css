@@ -1,0 +1,108 @@
+/*
+LAYOUT: One-Column Fixed
+DESCRIPTION: Single column 940px fixed layout with no sidebar
+*/
+
+body {
+	min-width: 960px;
+}
+
+#above-header-aside {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	position: relative;
+}
+
+#header-aside {
+	float: right;
+	width: 300px;
+	margin-right: 0;
+}
+
+#branding {
+	width: 940px;
+	margin: 0 auto;
+}
+
+#access {
+	position: relative;
+	margin-bottom: 48px;
+}
+
+.menu {
+	width: 940px;
+	margin: 0 auto;
+}
+
+#main {
+	width: 940px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+#above-container-aside {
+	width: 940px;
+	margin: 0 auto;
+	margin-bottom: 54px;
+}
+
+#container {
+	margin: 0 auto;
+	width: 940px;
+}
+
+#content {
+	margin: 0;
+	width: 940px;
+}
+
+.hentry {
+	width: 900px;
+	margin: 0 20px;
+}
+
+.main-aside {
+	width: 300px;
+	float: right;
+	position: relative;
+}
+
+#secondary {
+	clear: right;
+}
+
+#footer {
+	clear: both;
+}
+
+#subsidiary {
+	width: 940px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#subsidiary {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#subsidiary .aside, #subsidiary #third {
+	width: 300px;
+	float: left;
+	margin: 0 auto;
+}
+
+#siteinfo {
+	clear: both;
+	width: 960px;
+	margin: 0 auto;
+}
+
+#comments {
+	width: 540px;
+}

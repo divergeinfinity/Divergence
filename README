@@ -1,0 +1,23 @@
+=== Divergence Theme ===
+Contributors: Jeff Parsons
+Tags: Child Theme, Thematic, WordPress
+Requires at least: 3.0
+Tested up to: 3.1.3
+Stable tag: 1.0
+License: GPLv2
+
+== Description ==
+
+Divergence is the Thematic child theme for Diverge Towards Infinity.  It is open, light, spacious and based on the default Thematic theme with a minimalist Primary and Seconday coloring.  It is highly user customizable using the Admin -- Theme Options Panel Framework.
+
+== Installation ==
+
+Upload the Theme to your WordPress Theme directory and activate it.
+Visit the Admin->Appearance->Options to configure.
+
+== Changelog ==
+
+= 1.0 =
+
+* initial public release
+

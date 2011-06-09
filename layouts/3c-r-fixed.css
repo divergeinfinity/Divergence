@@ -1,0 +1,102 @@
+
+/*
+LAYOUT: Three-Column (Right)
+DESCRIPTION: Three-column 960px fixed layout with two sidebars right of content
+*/
+
+body {
+	min-width: 960px;
+}
+
+#above-header-aside {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	position: relative;
+}
+
+#header-aside {
+	float: right;
+	width: 300px;
+	margin-right: 0;
+}
+
+#branding {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#access {
+	position: relative;
+	margin-bottom: 48px;
+}
+
+.menu {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#main {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+#above-container-aside {
+	width: 960px;
+	margin: 0 auto;
+	margin-bottom: 36px;
+}
+
+#container {
+	width: 550px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+#above-content-aside {
+	width: 550px;
+	overflow: hidden;
+}
+
+#content {
+	width: 550px;
+	overflow: hidden;
+}
+
+#primary {
+	width: 225px;
+	float: right;
+	margin: 0 0 0 0;
+}
+
+#secondary {
+	width: 143px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+#footer {
+	clear: both;
+}
+
+#subsidiary {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#subsidiary .aside, #subsidiary #third {
+	width: 300px;
+	float: left;
+	margin: 0 auto;
+}
+
+#siteinfo {
+	clear: both;
+	width: 960px;
+	margin: 0 auto;
+}

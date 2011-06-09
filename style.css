@@ -1,0 +1,52 @@
+/*
+Theme Name: Divergence
+Theme URI: http://diverge.blogdns.com/divergence-theme/
+Description: This is the Thematic child theme for Diverge Towards Infinity.  It is open, light, spacious and based on the default Thematic theme with a minimalist Primary and Seconday coloring.  It is highly user customizable using the Admin -- Theme Options Panel Framework.
+Author: <a href="http://diverge.blogdns.com/contact">Jeff Parsons</a>
+Author URI: http://diverge.blogdns.com/
+Template: thematic
+Version: 1.0
+TAGS: white, dark, one-column, two-columns, three-columns, left-sidebar, right-sidebar, fixed-width, custom-header, custom-background, custom-colors, theme-options, threaded-comments, sticky-post, microformats
+.
+The Thematic Theme is copyright Ian Stewart http://themeshaper.com/
+This work, like WordPress, is released under GNU General Public License, version 2 (GPL).
+.
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+/* Reset browser defaults */
+@import url('../thematic/library/styles/reset.css');
+
+/* Apply basic typography styles */
+@import url('../thematic/library/styles/typography.css');
+
+/* Apply basic image styles */
+@import url('../thematic/library/styles/images.css');
+
+/* Prepare theme for plugins */
+@import url('../thematic/library/styles/plugins.css');
+
+/* Load a Default Style sheet */
+/*@import url('../thematic/library/styles/default.css');*/
+
+
+/*---------------------------------------------------------------------------*/
+/*  BEGIN MAIN THEME STYLING  */
+/*---------------------------------------------------------------------------*/
+
+
+@font-face {
+	font-family: 'ScriptinaProRegular';
+	src: url('typefaces/scriptina_pro-webfont.eot');
+	src: local('☺'), url('typefaces/scriptina_pro-webfont.woff') format('woff'), url('typefaces/scriptina_pro-webfont.ttf') format('truetype'), url('typefaces/scriptina_pro-webfont.svg#webfont1pAe198X') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/**
+ *	From here the Theme Options Panel Framework will either use the previously loaded default styling
+ *	or whatever other stylesheet the user selects from the Theme Options Panel Framework in the Admin.
+ */
